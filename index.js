@@ -3,9 +3,9 @@ const bodyParser = require('body-parser');
 const { MongoClient, ObjectId } = require('mongodb');
 
 (async () => {
-    const url = 'mongodb://localhost:27017';
+    const url = 'mongodb+srv://admin:A8og6FENZVyZZqf8@cluster0.9jogk.mongodb.net/ocean_db?retryWrites=true&w=majority';
 
-    const dbName = 'ocean_database_03_02_2021';
+    const dbName = 'ocean_db';
 
     console.info('Conectando ao banco de dados...');
 
